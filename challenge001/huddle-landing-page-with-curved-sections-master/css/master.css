@@ -13,11 +13,12 @@ html,body{
 }
 
 body{
-  font-size: clamp(1em,2em);
+  font-size: clamp(1.125rem,2.5vw,1.65rem);
 }
 
 button{
   font-family: 'Open Sans', sans-serif;
+  font-size: clamp(1rem,2.5vw,1.65rem);
 }
 .navbar{
   display: flex;
@@ -36,29 +37,37 @@ button{
 }
 
 .button{
+  cursor: pointer;
   color: hsl(0,0%,100%);
   background-color: hsl(322, 100%, 66%);
+  font-weight: bold;
   text-transform: capitalize;
-  padding:1em 2em;
+  padding:1.125em 4em;
   border:none;
-  border-radius:3em;
+  border-radius:6em;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .button--nav{
   color:hsl(321, 100%, 78%);
+  font-size: .7em;
+  font-weight: 400;
+  padding:.7em 2.2em;
+
   border:solid 1px hsl(321, 100%, 78%);
   background-color:transparent;
+  box-shadow: hsla(321, 100%, 78%,.24) 0px 3px 8px;
 }
 
 .hero{
-  padding:4em 2em;
+  padding:4em 3em;
   text-align: center;
   line-height: 1.6;
 }
 
 .hero__heading{
   color:#222;
-  font-size:2em;
+  font-size:1.85em;
   font-family: 'Poppins', sans-serif;
   text-transform: capitalize;
   padding-bottom: 1em;
@@ -67,5 +76,10 @@ button{
 .hero__about{
   max-width: 52ch;
   margin: 0 auto;
-  padding-bottom: 2em;
+  padding-bottom: 3em;
+}
+
+.hero__image{
+  width: 100%;
+  padding: 6em 0;
 }
