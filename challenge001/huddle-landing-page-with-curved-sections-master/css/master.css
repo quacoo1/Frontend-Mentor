@@ -63,6 +63,8 @@ button{
   padding:4em 3em;
   text-align: center;
   line-height: 1.6;
+  max-width: 1440px;
+  margin:0 auto;
 }
 
 .hero__heading{
@@ -79,7 +81,13 @@ button{
   padding-bottom: 3em;
 }
 
+.hero__image-container{
+  max-width: 70ch;
+  margin:0 auto;
+  padding:4em 0;
+}
+
 .hero__image{
   width: 100%;
-  padding: 6em 0;
+
 }
