@@ -12,14 +12,19 @@ html,body{
   min-height: 100%;
 }
 
+body{
+  font-size: clamp(1em,2em);
+}
+
 button{
   font-family: 'Open Sans', sans-serif;
 }
-
 .navbar{
   display: flex;
   align-items: center;
   padding: 2em;
+  max-width: 1440px;
+  margin:0 auto;
 }
 
 .navbar__section--right{
