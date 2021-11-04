@@ -89,5 +89,41 @@ button{
 
 .hero__image{
   width: 100%;
+}
+
+.statistics{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statistics__section{
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:4em 2em;
+}
+.statistics__heading{
+  font-size: 4.25em;
+  font-weight:bold;
+}
+
+.statistics__message{
+  text-align: center;
+}
+.story{
+  text-align: center;
+}
+
+.story__section{
+  display: flex;
+  flex-wrap: wrap;
+  padding:2.5em;
+}
+
+.story__illustration{
+  display:block;
+  width: 100%;
+  margin:1em;
 
 }
